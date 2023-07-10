@@ -1,0 +1,16 @@
+.chevron {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &_left,
+  &_right {
+    cursor: pointer;
+    font-size: 50px;
+  }
+
+  img {
+    width: 250px;
+    cursor: pointer;
+  }
+}

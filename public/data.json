@@ -1,0 +1,100 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "Booki",
+    "cover": "/images/booki-Logo.png",
+    "pictures": ["/images/booki-accueil.png", "/images/booki-activité.png"],
+    "description": {
+      "p1": "Grâce au projet Booki, j'ai acquis de solides compétences en HTML et CSS, en mettant en pratique des concepts tels que le design responsive et l'utilisation des flexbox. J'ai été responsable de l'intégration des maquettes du site, en assurant une expérience utilisateur optimale sur différents appareils.",
+      "p2": "De plus, j'ai développé mes compétences en gestion de version en utilisant Git et GitHub pour partager mon projet en ligne. Cette expérience m'a permis de collaborer efficacement avec l'équipe et de suivre l'évolution du code tout au long du processus de développement.",
+      "p3": "Ce projet chez Booki m'a offert une occasion précieuse d'appliquer mes connaissances en HTML, CSS et Git, tout en contribuant à la création d'un site web fonctionnel et esthétiquement attrayant."
+    },
+    "link": "https://sulirb.github.io/booki/",
+    "tags": ["HTML", "CSS", "Git", "Frontend"]
+  },
+  {
+    "id": "b9123946",
+    "title": "Sophie Bluel",
+    "cover": "/images/bluel-Logo.png",
+    "pictures": [
+      "/images/bluel-accueil.png",
+      "/images/bluel-galerie.png",
+      "/images/bluel-login.png"
+    ],
+    "description": {
+      "p1": "J'ai participé à ce projet visant à concevoir le site portfolio de Sophie Bluel, architecte d'intérieur avec pour objectif de devoir manipuler le DOM en utilisant le langage JavaScript.",
+      "p2": "J'ai appris à récupérer des données dans JavaScript, en les traitant et en les utilisant pour fournir une expérience personnalisée aux utilisateurs du site. J'ai aussi acquis des compétences avancées dans la gestion des événements utilisateurs avec JavaScript.",
+      "p3": "Cette opportunité m'a permis d'acquérir de nouvelles compétences clés dans le domaine du développement front-end."
+    },
+    "link": "https://sulirb.github.io/Portfolio--P3/FrontEnd",
+    "tags": ["JavaScript", "Frontend"]
+  },
+  {
+    "id": "46d188c5",
+    "title": "Menu Maker by Qwenta",
+    "cover": "/images/qwenta-logo.png",
+    "pictures": [
+      "/images/qwenta-accueil.png",
+      "/images/qwenta-dashboard.png",
+      "/images/qwenta-menus.png"
+    ],
+    "description": {
+      "p1": "Pour ce projet il a fallu mener, préparer et planifier le projet du développement du site Menu Maker by Qwenta. Tout en devant respecter la méthodologie de travail agile.",
+      "p2": "Il a fallu remplir un document de spécification technique et réaliser des présentations type PowerPoint sur la veille technologique, la gestion du projet et les technologies retenues.",
+      "p3": "L'objectif de ce projet était de comprendre comment devait fonctionner le site et devoir chercher les outils qui permetteraient de réussir à concevoir le site pour une certaine deadline. En tant que chef de projet, il fallait aussi driver une équipe et devoir partager les tâches selon leurs compétences."
+    },
+    "link": "https://github.com/sulirb/presentation",
+    "tags": ["Chef de Projet", "Méthode Agile", "Tableau Kanban"]
+  },
+  {
+    "id": "7af00cd6",
+    "title": "Nina Carducci",
+    "cover": "/images/carducci-logo.png",
+    "pictures": [
+      "/images/carducci-accueil.png",
+      "/images/carducci-footer.png",
+      "/images/carducci-galerie.png"
+    ],
+    "description": {
+      "p1": "Le site web de la photographe Nina Carducci était déjà en ligne, mais possedait notamment des bugs, de gros problèmes de chargement et de réferencement.",
+      "p2": "Il a fallu faire une optimisation globale du site, tant sur les performances que sur le SEO et rendre le site plus visible sur Google et les réseaux sociaux.",
+      "p3": "Cela m'a donc donné de solides compétences dans le domaine du SEO, et plus globalement dans l'optimisation de performances et de visibilité d'un site web."
+    },
+    "link": "https://sulirb.github.io/nina-carducci-p5/",
+    "tags": ["SEO", "Performances", "Réferencement"]
+  },
+  {
+    "id": "0979876d",
+    "title": "Kasa",
+    "cover": "/images/kasa-logo.png",
+    "pictures": [
+      "/images/kasa-about.png",
+      "/images/kasa-accueil.png",
+      "/images/kasa-fiche.png"
+    ],
+    "description": {
+      "p1": "Kasa, site de location d'appartements, avait besoin d'une modernisation: le but était de faire une refonte du site avec des technologies récentes. Ainsi le choix s'est porté sur l'utilisation de la bibliothèque React.",
+      "p2": "J'ai du initialiser l'application avec Vite js, j'ai ainsi configuré la navigation avec React Router puis crée des composants React pour les imbriquer dans des pages. Aussi concernant le style, le choix s'est porté sur l'utilisation de SCSS, beaucoup plus puissant que le CSS de base.",
+      "p3": "Ce projet m'a permis de comprendre la puissance et l'efficacité de la bibliothèque React pour créer un site modulable de manière plus efficace qu'avec JavaScript."
+    },
+    "link": "https://sulirb.github.io/Kasa--P6/",
+    "tags": ["React", "Frontend", "SCSS"]
+  },
+  {
+    "id": "f72a452f",
+    "title": "Mon vieux Grimoire",
+    "cover": "/images/grimoire-Logo.png",
+    "pictures": [
+      "/images/grimoire-accueil.png",
+      "/images/grimoire-fiche.png",
+      "/images/grimoire-form.png"
+    ],
+    "description": {
+      "p1": "Une chaine de librairie veut ouvrir un site de notation de livre \"Mon vieux grimoire\", le frontend du site était déjà prêt il a fallu créer un backend, c'est à dire créer un serveur et la relier à une base de données.",
+      "p2": "L'objectif était de créer des requêtes basés sur CRUD (Create, Read, Update, Delete) afin que les utilisateurs puissent créer un compte, se connecter, poster des livres, les noter, les modifier et les supprimer.",
+      "p3": "Cette opportunité m'a permis de rentrer dans le monde du developpement backend, où l'objectif etait de pouvoir ajouter des fonctionnalités à un site qui avait déjà un frontend établi afin de le rendre complet."
+    },
+    "link": "https://github.com/sulirb/mon-vieux-grimoire-p7",
+    "tags": ["Backend", "Express", "MongoDB"]
+  }
+]

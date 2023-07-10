@@ -1,0 +1,18 @@
+@import "../global.scss";
+
+.apropos {
+  padding: 6rem 3rem 10rem;
+  background-color: $back2-color;
+  &__title {
+    margin-bottom: 7rem;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__buttons {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

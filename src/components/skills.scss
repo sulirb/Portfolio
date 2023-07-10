@@ -1,0 +1,32 @@
+@import "../global";
+
+.comp {
+  padding: 6rem 3rem 10rem;
+  background-color: $back1-color;
+  &__title {
+    margin-bottom: 7rem;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__div {
+    p {
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+  &__logo {
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .comp {
+    padding: 5rem 4rem;
+  }
+}

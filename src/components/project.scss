@@ -1,0 +1,12 @@
+@import "../global.scss";
+
+.proj {
+  background-color: $back2-color;
+  padding: 6rem 3rem 10rem;
+  &__title {
+    margin-bottom: 7rem;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

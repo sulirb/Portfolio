@@ -1,0 +1,15 @@
+@import "../global";
+
+.start {
+  background-color: $back1-color;
+  padding: 15rem;
+  color: #ffffff;
+  &__title {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
