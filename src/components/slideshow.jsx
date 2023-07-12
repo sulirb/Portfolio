@@ -18,9 +18,12 @@ function Slideshow({ logos }) {
     );
   };
 
+  const previousIndex = (currentIndex - 1 + logos.length) % logos.length;
+  const nextIndex = (currentIndex + 1) % logos.length;
+
+  const previousImage = logos[previousIndex];
+  const nextImage = logos[nextIndex];
   const currentImage = logos[currentIndex];
-  const previousImage = logos[currentIndex - 1];
-  const nextImage = logos[currentIndex + 1];
 
   return (
     <div className="chevron">
@@ -28,7 +31,7 @@ function Slideshow({ logos }) {
         {<BsChevronLeft />}
       </div>
       <img
-        className="chevron_logo"
+        className="chevron_logo-pn"
         src={previousImage}
         alt={`Picture ${currentIndex - 1}`}
       />
@@ -38,7 +41,7 @@ function Slideshow({ logos }) {
         alt={`Picture ${currentIndex}`}
       />
       <img
-        className="chevron_logo"
+        className="chevron_logo-pn"
         src={nextImage}
         alt={`Picture ${currentIndex + 1}`}
       />

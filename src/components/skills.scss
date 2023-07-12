@@ -33,11 +33,14 @@
     }
   }
   &__logo {
-    font-size: 55px;
+    font-size: 70px;
     text-align: center;
+    &:hover {
+      font-size: 75px;
+    }
   }
   &__tool {
-    margin-top: 4rem;
+    margin-top: 7rem;
     &-flex {
       margin-top: 3rem;
       display: flex;

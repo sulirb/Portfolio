@@ -3,7 +3,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 5rem;
+  padding: 0 5rem;
   align-items: center;
   background-color: $header-color;
   top: 0;
@@ -26,8 +26,8 @@
       text-transform: uppercase;
       color: white;
       text-decoration: none;
-      margin: 15px;
-      font-size: 24px;
+      margin: 18px;
+      font-size: 20px;
       font-weight: 500;
     }
     &_link:hover {
@@ -39,7 +39,7 @@
 
 @media (max-width: 1130px) {
   .header {
-    padding: 1rem 3rem;
+    padding: 0 3rem;
     .nav-menu {
       padding: 0;
       .header__nav_link {
@@ -53,7 +53,7 @@
 @media (max-width: 850px) {
   .header {
     align-items: flex-start;
-    padding: 1rem 5rem;
+    padding: 0 5rem;
     .header__nav {
       .menu-toggle {
         margin: 2rem 0 0;

@@ -9,8 +9,10 @@
     font-size: 50px;
   }
 
-  img {
-    width: 250px;
+  &_logo {
     cursor: pointer;
+    &-pn {
+      width: 100px;
+    }
   }
 }
