@@ -10,16 +10,16 @@ function About() {
         milieu du développement web.
       </p>
       <p>
-        D&apos;un naturel curieux j&apos;ai découvert l&apos;univers du
+        D&apos;un naturel curieux, j&apos;ai découvert l&apos;univers du
         développement de manière autodidacte, puis ensuite j&apos;ai saisi
         l&apos;opportunité d&apos;effectuer une formation de développeur web sur
-        Openclassrooms.
+        Openclassrooms afin de compléter mes connaissances et me
+        professionnaliser.
       </p>
       <p>
-        Lors de ma formation professionnelle j&apos;ai pu acquérir les bases et
-        consolider les compétences de plusieurs langages (HTML, CSS,
-        Javascript), la gestion de bases de données mais aussi
-        l&apos;utilisation du logiciel Git.
+        Lors de ma formation professionnelle j&apos;ai pu consolider mes
+        compétences sur les langages du web (HTML, CSS, JS), puis approfondir
+        l&apos;usage de bases de données, Git, React, NodeJS.
       </p>
       <div className="apropos__buttons">
         <button>Télécharger mon CV</button>

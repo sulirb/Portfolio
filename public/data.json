@@ -5,9 +5,8 @@
     "cover": "/images/booki-Logo.png",
     "pictures": ["/images/booki-accueil.png", "/images/booki-activité.png"],
     "description": {
-      "p1": "Grâce au projet Booki, j'ai acquis de solides compétences en HTML et CSS, en mettant en pratique des concepts tels que le design responsive et l'utilisation des flexbox. J'ai été responsable de l'intégration des maquettes du site, en assurant une expérience utilisateur optimale sur différents appareils.",
-      "p2": "De plus, j'ai développé mes compétences en gestion de version en utilisant Git et GitHub pour partager mon projet en ligne. Cette expérience m'a permis de collaborer efficacement avec l'équipe et de suivre l'évolution du code tout au long du processus de développement.",
-      "p3": "Ce projet chez Booki m'a offert une occasion précieuse d'appliquer mes connaissances en HTML, CSS et Git, tout en contribuant à la création d'un site web fonctionnel et esthétiquement attrayant."
+      "p1": "Application des connaissances en développement web pour l'intégration de maquettes en suivant un design responsive.",
+      "p2": "Suivi du processus de développement et collaboration avec l'équipe sur GitHub dans l'objectif de deployer le produit en ligne."
     },
     "link": "https://sulirb.github.io/booki/",
     "tags": ["HTML", "CSS", "Git", "Frontend"]

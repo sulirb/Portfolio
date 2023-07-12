@@ -19,6 +19,8 @@ function Slideshow({ logos }) {
   };
 
   const currentImage = logos[currentIndex];
+  const previousImage = logos[currentIndex - 1];
+  const nextImage = logos[currentIndex + 1];
 
   return (
     <div className="chevron">
@@ -27,8 +29,18 @@ function Slideshow({ logos }) {
       </div>
       <img
         className="chevron_logo"
+        src={previousImage}
+        alt={`Picture ${currentIndex - 1}`}
+      />
+      <img
+        className="chevron_logo"
         src={currentImage}
         alt={`Picture ${currentIndex}`}
+      />
+      <img
+        className="chevron_logo"
+        src={nextImage}
+        alt={`Picture ${currentIndex + 1}`}
       />
       <div className="chevron_right" onClick={nextSlide}>
         {<BsChevronRight />}

@@ -11,17 +11,47 @@
   }
   &__flex {
     display: flex;
-    justify-content: space-around;
+    &-front {
+      width: 50%;
+      text-align: center;
+    }
+    &-back {
+      width: 50%;
+      text-align: center;
+    }
+    &-tri {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
   &__div {
-    p {
-      text-align: center;
-      font-weight: 700;
+    &-front {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   &__logo {
     font-size: 55px;
     text-align: center;
+  }
+  &__tool {
+    margin-top: 4rem;
+    &-flex {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-weight: 700;
   }
 }
 
