@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import Modal from "./modal";
 import "./slideshow.scss";
 import PropTypes from "prop-types";
 
-function Slideshow({ logos }) {
+function Slideshow({ logos, data }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
   const previousSlide = () => {
     setCurrentIndex((prevIndex) =>
@@ -24,6 +26,8 @@ function Slideshow({ logos }) {
   const previousImage = logos[previousIndex];
   const nextImage = logos[nextIndex];
   const currentImage = logos[currentIndex];
+  const currentTitle = data[currentIndex].title;
+  const currentDescription = data[currentIndex].description;
 
   return (
     <div className="chevron">
@@ -39,7 +43,15 @@ function Slideshow({ logos }) {
         className="chevron_logo"
         src={currentImage}
         alt={`Picture ${currentIndex}`}
+        onClick={() => setIsOpen(true)}
       />
+      {isOpen && (
+        <Modal
+          setIsOpen={setIsOpen}
+          title={currentTitle}
+          description={currentDescription}
+        />
+      )}
       <img
         className="chevron_logo-pn"
         src={nextImage}
@@ -54,6 +66,7 @@ function Slideshow({ logos }) {
 
 Slideshow.propTypes = {
   logos: PropTypes.array.isRequired,
+  data: PropTypes.array.isRequired,
 };
 
 export default Slideshow;

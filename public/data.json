@@ -3,7 +3,11 @@
     "id": "c67ab8a7",
     "title": "Booki",
     "cover": "/images/booki-Logo.png",
-    "pictures": ["/images/booki-accueil.png", "/images/booki-activité.png"],
+    "pictures": [
+      "/images/booki-accueil.png",
+      "/images/booki-activité.png",
+      "/images/booki-mobile.png"
+    ],
     "description": [
       "Application des connaissances en développement web pour l'intégration de maquettes en suivant un design responsive.",
       "Suivi du processus de développement et collaboration avec l'équipe sur GitHub dans l'objectif de deployer le produit en ligne."
