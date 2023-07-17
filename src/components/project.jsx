@@ -11,7 +11,10 @@ function Project() {
 
   const slideshowData = data.map((item) => ({
     title: item.title,
+    pictures: item.pictures,
     description: item.description,
+    tags: item.tags,
+    link: item.link,
   }));
 
   return (

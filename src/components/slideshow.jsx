@@ -28,6 +28,9 @@ function Slideshow({ logos, data }) {
   const currentImage = logos[currentIndex];
   const currentTitle = data[currentIndex].title;
   const currentDescription = data[currentIndex].description;
+  const currentPictures = data[currentIndex].pictures;
+  const currentTags = data[currentIndex].tags;
+  const currentLink = data[currentIndex].link;
 
   return (
     <div className="chevron">
@@ -49,7 +52,10 @@ function Slideshow({ logos, data }) {
         <Modal
           setIsOpen={setIsOpen}
           title={currentTitle}
+          pictures={currentPictures}
           description={currentDescription}
+          link={currentLink}
+          tags={currentTags}
         />
       )}
       <img
