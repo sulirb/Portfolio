@@ -14,20 +14,23 @@ function About() {
         </div>
         <div className="apropos-texte">
           <p>
-            A 27 ans, je suis actuellement en reconversion pour travailler dans
-            le milieu du développement web.
+            A 27 ans, j&apos;ai entamé une reconversion vers le monde
+            passionnant du développement web. Guidé par ma curiosité naturelle,
+            j&apos;ai découvert cet univers de manière autodidacte, ce qui
+            m&apos;a incité à approfondir mes connaissances en suivant une
+            formation de développeur web sur Openclassrooms.
           </p>
           <p>
-            D&apos;un naturel curieux, j&apos;ai découvert l&apos;univers du
-            développement de manière autodidacte, puis ensuite j&apos;ai saisi
-            l&apos;opportunité d&apos;effectuer une formation de développeur web
-            sur Openclassrooms afin de compléter mes connaissances et me
-            professionnaliser.
+            Cette expérience formatrice m&apos;a permis de consolider mes
+            compétences dans les langages du web tels que HTML, CSS et
+            JavaScript, ainsi que de me familiariser avec des outils essentiels
+            tels que les bases de données, Git, React et NodeJS.
           </p>
           <p>
-            Lors de ma formation professionnelle j&apos;ai pu consolider mes
-            compétences sur les langages du web (HTML, CSS, JS), puis
-            approfondir l&apos;usage de bases de données, Git, React, NodeJS.
+            Je suis aujourd&apos;hui à la recherche de nouvelles opportunités
+            professionnelles dans le domaine du développement web, où je
+            pourrais mettre à profit ma passion et mes compétences pour
+            contribuer à des projets intéressants et stimulants.
           </p>
         </div>
       </div>

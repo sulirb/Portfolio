@@ -4,8 +4,11 @@ import PropTypes from "prop-types";
 import Tag from "./tag";
 
 function Modal({ setIsOpen, title, pictures, description, tags, link }) {
+  console.log(pictures);
   const mapPictures = pictures.map((url, index) => (
-    <img key={index} src={url} alt={`Image ${index + 1}`} />
+    <a key={index} href={url}>
+      <img src={url} alt={`Image ${index + 1}`} />
+    </a>
   ));
   return (
     <>

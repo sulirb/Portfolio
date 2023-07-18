@@ -2,8 +2,7 @@ import "./header.scss";
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import Logo from "../../public/images/si-logo.jpg";
-import { HiMenu } from "react-icons/hi";
-import { GrClose } from "react-icons/gr";
+import { Icon } from "@iconify/react";
 
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -19,7 +18,7 @@ const Header = () => {
       </Link>
       <nav className="header__nav">
         <div className="menu-toggle" onClick={handleDropdownToggle}>
-          {showDropdown ? <GrClose /> : <HiMenu />}
+          {showDropdown ? <Icon icon="mdi:close" /> : <Icon icon="mdi:menu" />}
         </div>
         <ul className={`nav-menu ${showDropdown ? "active" : ""}`}>
           <li>
