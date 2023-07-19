@@ -13,7 +13,6 @@
   &__nav {
     .menu-toggle {
       font-size: 30px;
-      color: white;
       display: none;
       cursor: pointer;
     }
@@ -24,15 +23,15 @@
     }
     &_link {
       text-transform: uppercase;
-      color: white;
       text-decoration: none;
       margin: 18px;
       font-size: 20px;
       font-weight: 500;
+      color: #f2e9dc;
     }
     &_link:hover {
       text-decoration: underline;
-      color: rgb(55, 45, 45);
+      color: #9fcc2e;
     }
   }
 }
@@ -52,9 +51,26 @@
 
 @media (max-width: 850px) {
   .header {
+    display: block;
     align-items: flex-start;
-    padding: 0 5rem;
-    .header__nav {
+    padding: 0;
+    position: relative;
+    img {
+      position: relative;
+      width: 150px;
+      z-index: 2;
+    }
+    &__logo {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    &__nav {
+      top: 0;
+      right: 0;
+      position: absolute;
+      width: 100%;
+      background-color: $header-color;
       .menu-toggle {
         margin: 2rem 0 0;
         display: block;
@@ -72,7 +88,6 @@
       }
       .nav-menu.active li {
         display: flex;
-
         align-items: center;
       }
     }
@@ -81,16 +96,12 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    padding: 2rem 1rem;
-    img {
-      width: 150px;
+    &__nav__ul {
+      padding: 0;
     }
-  }
-  .header__nav__ul {
-    padding: 0;
-  }
-  .header__nav_link {
-    font-size: 15px;
-    margin: 0 0 0 1rem;
+    &__nav_link {
+      font-size: 15px;
+      margin: 0 0 0 1rem;
+    }
   }
 }

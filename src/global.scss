@@ -4,6 +4,7 @@ button {
   padding: 0;
   font-family: "Geologica", sans-serif;
   height: 100%;
+  color: #f2e9dc;
 }
 
 * {
@@ -14,7 +15,6 @@ button {
   border-radius: 5px;
   letter-spacing: 3px;
   background-color: #211f1f;
-  color: white;
   padding: 0.7em 2em;
   cursor: pointer;
   text-transform: uppercase;
@@ -22,8 +22,7 @@ button {
 button:hover {
   background-color: rgb(55, 45, 45);
 }
-
-$back1-color: #049af0fb;
-$back2-color: #dce8ee;
-$footer-color: #276b92;
-$header-color: #31b4ff;
+$back1-color: #134d55;
+$back2-color: #0e3a40;
+$back3-color: #217394;
+$header-color: #0e402d;

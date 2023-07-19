@@ -1,7 +1,7 @@
 import "./header.scss";
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import Logo from "../../public/images/si-logo.jpg";
+import Logo from "../../public/images/si-logo.png";
 import { Icon } from "@iconify/react";
 
 const Header = () => {

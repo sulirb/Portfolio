@@ -3,14 +3,14 @@
 .cont {
   text-align: center;
   padding: 6rem 3rem 2rem;
-  background-color: $back1-color;
+  background-color: $header-color;
 
   &__rs {
     margin-top: 4rem;
   }
   &__icon {
-    color: black;
     font-size: 50px;
+    color: #000000;
   }
   &__icon :hover {
     color: rgb(55, 45, 45);
