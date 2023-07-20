@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1024px) {
   .header {
     padding: 0 3rem;
     .nav-menu {
@@ -49,7 +49,13 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 860px) {
+  .header {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
   .header {
     display: block;
     align-items: flex-start;
@@ -90,18 +96,6 @@
         display: flex;
         align-items: center;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    &__nav__ul {
-      padding: 0;
-    }
-    &__nav_link {
-      font-size: 15px;
-      margin: 0 0 0 1rem;
     }
   }
 }
