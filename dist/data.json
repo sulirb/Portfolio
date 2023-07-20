@@ -1,0 +1,99 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "Booki",
+    "cover": "/portfolio/images/booki-Logo.png",
+    "pictures": [
+      "/portfolio/images/booki-accueil.png",
+      "/portfolio/images/booki-activité.png",
+      "/portfolio/images/booki-mobile.png"
+    ],
+    "description": [
+      "Application des connaissances en développement web pour l'intégration de maquettes en suivant un design responsive.",
+      "Suivi du processus de développement et collaboration avec l'équipe sur GitHub dans l'objectif de deployer le produit en ligne."
+    ],
+    "link": "https://sulirb.github.io/booki/",
+    "tags": ["HTML", "CSS", "Git", "Frontend"]
+  },
+  {
+    "id": "b9123946",
+    "title": "Sophie Bluel",
+    "cover": "/portfolio/images/bluel-Logo.png",
+    "pictures": [
+      "/portfolio/images/bluel-accueil.png",
+      "/portfolio/images/bluel-galerie.png",
+      "/portfolio/images/bluel-login.png"
+    ],
+    "description": [
+      "Conception d'un site portfolio qui implique la manipulation du DOM, la gestion des événements utilisateurs, la récupération, le traitement et l'utilisation des données pour offrir une expérience personnalisée aux utilisateurs du site.",
+      "Intégration d’un système d'authentification en stockant un token sécurisé dans le localStorage, offrant ainsi aux utilisateurs une connexion sécurisée."
+    ],
+    "link": "https://sulirb.github.io/Portfolio--P3/FrontEnd",
+    "tags": ["JavaScript", "Frontend"]
+  },
+  {
+    "id": "46d188c5",
+    "title": "Menu Maker by Qwenta",
+    "cover": "/portfolio/images/qwenta-logo.png",
+    "pictures": [
+      "/portfolio/images/qwenta-accueil.png",
+      "/portfolio/images/qwenta-dashboard.png",
+      "/portfolio/images/qwenta-menus.png"
+    ],
+    "description": [
+      "Préparation et planification du développement du site Menu Maker by Qwenta selon la méthodologie de travail agile.",
+      "Création d’un document de spécifications technique et réalisation de présentations type PowerPoint sur la veille technologique, la gestion d’équipe du projet et les technologies retenues."
+    ],
+
+    "link": "https://github.com/sulirb/presentation",
+    "tags": ["Chef de Projet", "Méthode Agile", "Tableau Kanban"]
+  },
+  {
+    "id": "7af00cd6",
+    "title": "Nina Carducci",
+    "cover": "/portfolio/images/carducci-logo.png",
+    "pictures": [
+      "/portfolio/images/carducci-accueil.png",
+      "/portfolio/images/carducci-footer.png",
+      "/portfolio/images/carducci-galerie.png"
+    ],
+    "description": [
+      "Debugage du code et optimisation globale du site web, tant sur les performances que sur le SEO.",
+      "Mise en place des métas réseaux sociaux et locales, rendre le site plus accessible."
+    ],
+    "link": "https://sulirb.github.io/nina-carducci-p5/",
+    "tags": ["SEO", "Performances", "Réferencement"]
+  },
+  {
+    "id": "0979876d",
+    "title": "Kasa",
+    "cover": "/portfolio/images/kasa-logo.png",
+    "pictures": [
+      "/portfolio/images/kasa-about.png",
+      "/portfolio/images/kasa-accueil.png",
+      "/portfolio/images/kasa-fiche.png"
+    ],
+    "description": [
+      "Utilisation de la bibliothèque React pour la refonte du site web dans le cadre d’une mise à jour.",
+      "Initialisation de l'application avec Vite js, configuration de la navigation avec React Router, création des composants React pour les imbriquer dans les pages. Utilisation de SCSS pour le style, offrant une puissance supérieure au CSS de base."
+    ],
+    "link": "https://sulirb.github.io/Kasa--P6/",
+    "tags": ["React", "Frontend", "SCSS"]
+  },
+  {
+    "id": "f72a452f",
+    "title": "Mon vieux Grimoire",
+    "cover": "/portfolio/images/grimoire-Logo.png",
+    "pictures": [
+      "/portfolio/images/grimoire-accueil.png",
+      "/portfolio/images/grimoire-fiche.png",
+      "/portfolio/images/grimoire-form.png"
+    ],
+    "description": [
+      "Création du backend d’un site de notation de livre, Initialisation d’un serveur Express et le connectant à une base de données MongoDB.",
+      "Création des requêtes basés sur CRUD (Create, Read, Update, Delete) permettant aux utilisateurs de créer un compte, de se connecter, de poster des livres, les noter, les modifier et les supprimer."
+    ],
+    "link": "https://github.com/sulirb/mon-vieux-grimoire-p7",
+    "tags": ["Backend", "Express", "MongoDB"]
+  }
+]
