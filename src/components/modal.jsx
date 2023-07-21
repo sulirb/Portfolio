@@ -26,22 +26,23 @@ function Modal({ setIsOpen, title, pictures, description, tags, link }) {
           </div>
           <div className="modal__content">
             <div className="infos">
+              <h4>Description:</h4>
               <div className="infos__descr">
-                <h4>Description:</h4>
                 {description.map((e, index) => (
                   <Tag key={index} tag={e} />
                 ))}
               </div>
-              <h4>Technologies utilisées: </h4>
+              <h4>Mots-clés: </h4>
               <div className="infos__tags">
                 {tags.map((e, index) => (
                   <Tag key={index} tag={e} />
                 ))}
               </div>
               <a href={link}>
-                <button>Lien</button>
+                <button>Lien du site</button>
               </a>
             </div>
+            <h4>Images du site: </h4>
             <div className="images">{mapPictures}</div>
           </div>
         </div>

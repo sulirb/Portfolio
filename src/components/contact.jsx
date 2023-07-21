@@ -1,5 +1,6 @@
 import "./contact.scss";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { Icon } from "@iconify/react";
+
 function Contact() {
   return (
     <div className="cont">
@@ -11,12 +12,11 @@ function Contact() {
         </a>
       </div>
       <div className="cont__rs">
-        <h2>Ou bien retrouvez moi sur les réseaux : </h2>
         <a href="https://linkedin.com" className="cont__icon">
-          <FaLinkedin />
+          <Icon icon="mdi:linkedin" />
         </a>
         <a href="https://github.com/sulirb" className="cont__icon">
-          <FaGithubSquare />
+          <Icon icon="mdi:github" />
         </a>
       </div>
     </div>

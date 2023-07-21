@@ -6,7 +6,10 @@
   background-color: $back4-color;
 
   &__rs {
-    margin-top: 4rem;
+    margin-top: 2.5rem;
+    a {
+      margin: 0 0.2em;
+    }
   }
   &__icon {
     font-size: 50px;

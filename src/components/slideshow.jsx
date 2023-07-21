@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
+import { Icon } from "@iconify/react";
 import Modal from "./modal";
 import "./slideshow.scss";
 import PropTypes from "prop-types";
@@ -35,7 +35,7 @@ function Slideshow({ logos, data }) {
   return (
     <div className="chevron">
       <div className="chevron_left" onClick={previousSlide}>
-        {<BsChevronLeft />}
+        {<Icon icon="mdi:chevron-left" />}
       </div>
       <img
         className="chevron_logo-pn"
@@ -64,7 +64,7 @@ function Slideshow({ logos, data }) {
         alt={`Picture ${currentIndex + 1}`}
       />
       <div className="chevron_right" onClick={nextSlide}>
-        {<BsChevronRight />}
+        {<Icon icon="mdi:chevron-right" />}
       </div>
     </div>
   );
