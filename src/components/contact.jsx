@@ -12,10 +12,20 @@ function Contact() {
         </a>
       </div>
       <div className="cont__rs">
-        <a href="https://linkedin.com" className="cont__icon">
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+          className="cont__icon"
+        >
           <Icon icon="mdi:linkedin" />
         </a>
-        <a href="https://github.com/sulirb" className="cont__icon">
+        <a
+          href="https://github.com/sulirb"
+          target="_blank"
+          rel="noreferrer"
+          className="cont__icon"
+        >
           <Icon icon="mdi:github" />
         </a>
       </div>

@@ -7,6 +7,7 @@ import {
 import Home from "../pages/home.jsx";
 import Error from "../pages/error.jsx";
 import Header from "../components/header.jsx";
+import Contact from "../components/contact.jsx";
 
 const base = import.meta.env.BASE_URL;
 export function App() {
@@ -18,6 +19,7 @@ export function App() {
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
       </Routes>
+      <Contact />
     </Router>
   );
 }

@@ -2,7 +2,6 @@ import Start from "../components/start";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Project from "../components/project";
-import Contact from "../components/contact";
 
 function Home() {
   return (
@@ -18,9 +17,6 @@ function Home() {
       </div>
       <div id="project">
         <Project />
-      </div>
-      <div id="contact">
-        <Contact />
       </div>
     </div>
   );
