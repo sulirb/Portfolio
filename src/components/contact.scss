@@ -17,6 +17,26 @@
   }
   &__icon :hover {
     color: rgb(55, 45, 45);
-    font-size: 50px;
+  }
+}
+
+@media (max-width: 428px) {
+  .cont {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 390px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  button {
+    width: 200px;
+  }
+  .cont__icon {
+    font-size: 40px;
   }
 }

@@ -59,8 +59,32 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1024px) {
   .comp {
-    padding: 5rem 4rem;
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .comp {
+    padding: 2rem 0;
+    &__title {
+      font-size: 40px;
+    }
+    &__flex {
+      padding: 0 2rem;
+      flex-direction: column;
+      &-front {
+        width: 100%;
+      }
+      &-back {
+        width: 100%;
+        margin-top: 2rem;
+      }
+    }
+    &__tool {
+      margin-top: 2rem;
+      padding: 0 2rem;
+    }
   }
 }

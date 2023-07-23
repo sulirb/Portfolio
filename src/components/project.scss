@@ -10,3 +10,25 @@
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 1024px) {
+  .proj {
+    padding: 3rem;
+    &__title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .proj {
+    padding: 0rem;
+    &__title {
+      margin: 0;
+      padding: 5rem 0;
+    }
+    .chevron {
+      padding: 5rem 2rem;
+    }
+  }
+}

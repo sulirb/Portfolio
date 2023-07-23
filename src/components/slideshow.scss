@@ -17,3 +17,35 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .chevron_logo-pn {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .chevron {
+    &_left,
+    &_right {
+      font-size: 60px;
+    }
+    &_logo {
+      width: 280px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .chevron {
+    padding: 0 2em;
+    &_left,
+    &_right {
+      font-size: 50px;
+    }
+    &_logo {
+      width: 200px;
+      margin: 1em;
+    }
+  }
+}
