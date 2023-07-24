@@ -9,7 +9,7 @@ function Start() {
       </div>
       <img
         className="start__bg"
-        src="portfolio/images/arriere-plan.jpg"
+        src="/portfolio/images/arriere-plan.jpg"
         alt="Développeur des fôrets"
       />
     </div>
