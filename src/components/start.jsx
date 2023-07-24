@@ -9,9 +9,9 @@ function Start() {
       </div>
       <img
         className="start__bg"
-        src="../../public/images/arriere-plan.webp"
+        src="../../public/images/arriere-plan.jpg"
         alt=""
-      />{" "}
+      />
     </div>
   );
 }
