@@ -9,7 +9,7 @@ function About() {
         <div className="cadre-photo">
           <img
             src="https://s3.eu-central-1.amazonaws.com/uvpictures-eu-central-1/1280/SP/FR/CITROEN-C3-2607629_1.JPG"
-            alt="Nature"
+            alt="Photo de profil"
           />
         </div>
         <div className="apropos-texte">

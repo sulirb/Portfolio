@@ -45,7 +45,7 @@ function Slideshow({ logos, data }) {
       <img
         className="chevron_logo"
         src={currentImage}
-        alt={`Picture ${currentIndex}`}
+        alt={`Picture ${currentIndex} ${currentTitle}`}
         onClick={() => setIsOpen(true)}
       />
       {isOpen && (

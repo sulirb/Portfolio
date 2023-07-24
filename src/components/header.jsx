@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="header">
       <Link smooth to="/#start" className="header__logo">
-        <img src={Logo} alt="logo" />
+        <img src={Logo} alt="logo du site" />
       </Link>
       <nav className="header__nav">
         <div className="menu-toggle" onClick={handleDropdownToggle}>

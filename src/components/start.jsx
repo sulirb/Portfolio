@@ -9,8 +9,8 @@ function Start() {
       </div>
       <img
         className="start__bg"
-        src="../../public/images/arriere-plan.jpg"
-        alt=""
+        src="portfolio/images/arriere-plan.jpg"
+        alt="Développeur des fôrets"
       />
     </div>
   );
