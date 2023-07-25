@@ -112,7 +112,7 @@
 
 @media (max-width: 600px) {
   .centered {
-    width: 80%;
+    width: 90%;
   }
   .modal {
     &__header {
@@ -133,5 +133,15 @@
   .modal img {
     width: 100%;
     margin: 0 0 1em 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .modal__header-btn {
+    width: 8%;
+    font-size: 14px;
+  }
+  .modal__header-title {
+    font-size: 18px;
   }
 }
