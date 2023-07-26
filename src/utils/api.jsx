@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import dataUrl from "../../public/data.json?url";
+import skillUrl from "../../public/skill.json?url";
 
 export function useFetch(method, url, body, options) {
   const [data, setData] = useState([]);
@@ -24,6 +25,7 @@ export function useFetch(method, url, body, options) {
   return { isLoading, data, error };
 }
 
+export const useFetchSkills = () => useFetch("GET", skillUrl);
 export const useFetchProjects = () => useFetch("GET", dataUrl);
 export const useFetchProject = (id) => {
   const { data, ...rest } = useFetch("GET", dataUrl);
