@@ -45,35 +45,6 @@ function Skills() {
             </div>
           )}
         </div>
-        <div className="comp__flex-front">
-          <h2>Frontend</h2>
-          {data[0].frontend.icon.map((icon, index) => {
-            if (index === 0) {
-              // Afficher séparément la première div comp__div (index 0)
-              return (
-                <div className="comp__div" key={index}>
-                  <div className="comp__logo">
-                    <img src={icon} alt={data[0].frontend.title[index]} />
-                  </div>
-                  <p>{data[0].frontend.title[index]}</p>
-                </div>
-              );
-            } else if (index === 1 || index === 2) {
-              // Afficher les deuxième et troisième div dans la div comp__flex-tri (index 1 et 2)
-              return (
-                <div className="comp__flex-tri" key={index}>
-                  <div className="comp__div">
-                    <div className="comp__logo">
-                      <img src={icon} alt={data[0].frontend.title[index]} />
-                    </div>
-                    <p>{data[0].frontend.title[index]}</p>
-                  </div>
-                </div>
-              );
-            }
-            return null; // Pour les autres éléments, ne rien afficher (retourne null)
-          })}
-        </div>
 
         <div className="comp__flex-back">
           <h2>Backend</h2>
