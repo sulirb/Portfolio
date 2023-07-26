@@ -1,0 +1,28 @@
+[
+  {
+    "frontend": {
+      "icon": [
+        "https://api.iconify.design/logos/javascript.svg",
+        "https://api.iconify.design/logos/sass.svg",
+        "https://api.iconify.design/logos/react.svg"
+      ],
+      "title": ["Javascript", "Sass", "React"]
+    },
+    "backend": {
+      "icon": [
+        "https://api.iconify.design/devicon/mongodb-wordmark.svg",
+        "https://api.iconify.design/devicon/nodejs.svg",
+        "https://api.iconify.design/devicon/express.svg"
+      ],
+      "title": ["MongoDB", "Nodejs", "Express"]
+    },
+    "tools": {
+      "icon": [
+        "https://api.iconify.design/devicon/git.svg",
+        "https://api.iconify.design/logos/vitejs.svg",
+        "https://api.iconify.design/devicon/vscode.svg"
+      ],
+      "title": ["Git", "Vite", "VS Code"]
+    }
+  }
+]
