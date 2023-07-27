@@ -35,7 +35,9 @@ function About() {
         </div>
       </div>
       <div className="apropos__buttons">
-        <button>Télécharger mon CV</button>
+        <a href="/portfolio/public/cv-sullivan-irbah.pdf" target="blank_">
+          <button>Télécharger mon CV</button>
+        </a>
         <Link smooth to="/#contact" className="header__nav_link">
           <button>Me contacter</button>
         </Link>
