@@ -5,11 +5,11 @@ function Start() {
     <div className="start">
       <div className="start__title">
         <h1>Sullivan Irbah</h1>
-        <h2>Développeur Web</h2>
+        <span>Développeur Web</span>
       </div>
       <img
         className="start__bg"
-        src="/portfolio/images/arriere-plan.jpg"
+        src="/portfolio/images/arriere-plan.webp"
         alt="Développeur des fôrets"
       />
     </div>

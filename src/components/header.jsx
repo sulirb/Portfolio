@@ -43,7 +43,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="/portfolio/public/cv-sullivan-irbah.pdf"
+              to="/portfolio/cv-sullivan-irbah.pdf"
               target="blank_"
               className="header__nav_link"
             >

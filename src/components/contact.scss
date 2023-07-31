@@ -4,7 +4,9 @@
   text-align: center;
   padding: 6rem 3rem 2rem;
   background-color: $back4-color;
-
+  h3 {
+    font-size: 30px;
+  }
   &__rs {
     margin-top: 2.5rem;
     a {
@@ -27,7 +29,7 @@
 }
 
 @media (max-width: 390px) {
-  h1 {
+  h3 {
     font-size: 25px;
   }
   h2 {

@@ -19,7 +19,7 @@ function Project() {
 
   return (
     <div className="proj">
-      <h1 className="proj__title">Projets</h1>
+      <h2 className="proj__title">Projets</h2>
       <Slideshow logos={data.map((item) => item.cover)} data={slideshowData} />
     </div>
   );

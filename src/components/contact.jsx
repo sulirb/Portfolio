@@ -3,11 +3,11 @@ import { Icon } from "@iconify/react";
 
 function Contact() {
   return (
-    <div id="contact">
+    <footer id="contact">
       <div className="cont">
         <div className="cont__mail">
           <h2>Contactez moi :</h2>
-          <h1>s.irbah59@gmail.com</h1>
+          <h3>s.irbah59@gmail.com</h3>
           <a href="mailto:s.irbah59@gmail.com">
             <button className="cont__button">Envoyer un e-mail</button>
           </a>
@@ -31,7 +31,7 @@ function Contact() {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 
