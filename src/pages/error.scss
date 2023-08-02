@@ -1,7 +1,7 @@
 @import "../global";
 
 .message {
-  color: $back1-color;
+  color: white;
   text-align: center;
   margin: 15rem 5rem;
   &__h1 {
@@ -15,7 +15,7 @@
   }
   &__ret {
     font-size: 18px;
-    color: $back1-color;
+    color: white;
   }
 }
 
