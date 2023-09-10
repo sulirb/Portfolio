@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="apropos-texte">
           <p>
-            A 27 ans, j&apos;ai entamé une reconversion vers le monde
+            A 28 ans, j&apos;ai entamé une reconversion vers le monde
             passionnant du développement web. Guidé par ma curiosité naturelle,
             j&apos;ai découvert cet univers de manière autodidacte, ce qui
             m&apos;a incité à approfondir mes connaissances en suivant une

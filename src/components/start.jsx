@@ -11,6 +11,7 @@ function Start() {
         className="start__bg"
         src="/portfolio/images/arriere-plan.webp"
         alt="Développeur des fôrets"
+        crossOrigin="anonymous"
       />
     </div>
   );

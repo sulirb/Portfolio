@@ -8,19 +8,45 @@ import Home from "../pages/home.jsx";
 import Error from "../pages/error.jsx";
 import Header from "../components/header.jsx";
 import Contact from "../components/contact.jsx";
+import { useEffect, useState } from "react";
+import DotLoader from "react-spinners/DotLoader";
 
 const base = import.meta.env.BASE_URL;
 export function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <Router basename={base}>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/404" element={<Error />} />
-        <Route path="*" element={<Navigate replace to="/404" />} />
-      </Routes>
-      <Contact />
-    </Router>
+    <div>
+      {loading ? (
+        <DotLoader
+          color="white"
+          cssOverride={{
+            margin: "auto",
+            position: "fixed",
+            top: "43%",
+            left: "47%",
+          }}
+          speedMultiplier={2}
+          size={100}
+        />
+      ) : (
+        <Router basename={base}>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/404" element={<Error />} />
+            <Route path="*" element={<Navigate replace to="/404" />} />
+          </Routes>
+          <Contact />
+        </Router>
+      )}
+    </div>
   );
 }
 
