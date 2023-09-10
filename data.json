@@ -1,5 +1,21 @@
 [
   {
+    "id": "v47abua2",
+    "title": "Météo-Maubeuge",
+    "cover": "/portfolio/images/meteo-logo.png",
+    "pictures": [
+      "/portfolio/images/meteo-accueil.png",
+      "/portfolio/images/meteo-tableau.png",
+      "/portfolio/images/meteo-mobile.png"
+    ],
+    "description": [
+      "Manipulation de l'API Open-Meteo afin d'afficher les données météorologiques en temps réel.",
+      "Création d'une experience utilisateur informative et immersive."
+    ],
+    "link": "https://meteo-maubeuge.go.yo.fr",
+    "tags": ["HTML", "CSS", "JavaScript", "API"]
+  },
+  {
     "id": "c67ab8a7",
     "title": "Booki",
     "cover": "/portfolio/images/booki-Logo.png",
@@ -13,7 +29,7 @@
       "Suivi du processus de développement et collaboration avec l'équipe sur GitHub dans l'objectif de deployer le produit en ligne."
     ],
     "link": "https://sulirb.github.io/booki/",
-    "tags": ["HTML", "CSS", "Git", "Frontend"]
+    "tags": ["HTML", "CSS", "Git", "Openclassrooms"]
   },
   {
     "id": "b9123946",
@@ -29,7 +45,7 @@
       "Intégration d’un système d'authentification en stockant un token sécurisé dans le localStorage, offrant ainsi aux utilisateurs une connexion sécurisée."
     ],
     "link": "https://sulirb.github.io/Portfolio--P3/FrontEnd",
-    "tags": ["JavaScript", "Frontend"]
+    "tags": ["JavaScript", "Frontend", "Openclassrooms"]
   },
   {
     "id": "46d188c5",
@@ -46,7 +62,12 @@
     ],
 
     "link": "https://github.com/sulirb/presentation",
-    "tags": ["Chef de Projet", "Méthode Agile", "Tableau Kanban"]
+    "tags": [
+      "Chef de Projet",
+      "Méthode Agile",
+      "Tableau Kanban",
+      "Openclassrooms"
+    ]
   },
   {
     "id": "7af00cd6",
@@ -62,7 +83,7 @@
       "Mise en place des métas réseaux sociaux et locales, rendre le site plus accessible."
     ],
     "link": "https://sulirb.github.io/nina-carducci-p5/",
-    "tags": ["SEO", "Performances", "Réferencement"]
+    "tags": ["SEO", "Performances", "Réferencement", "Openclassrooms"]
   },
   {
     "id": "0979876d",
@@ -78,7 +99,7 @@
       "Initialisation de l'application avec Vite js, configuration de la navigation avec React Router, création des composants React pour les imbriquer dans les pages. Utilisation de SCSS pour le style, offrant une puissance supérieure au CSS de base."
     ],
     "link": "https://sulirb.github.io/Kasa--P6/",
-    "tags": ["React", "Frontend", "SCSS"]
+    "tags": ["React", "Frontend", "SCSS", "Openclassrooms"]
   },
   {
     "id": "f72a452f",
@@ -94,6 +115,6 @@
       "Création des requêtes basés sur CRUD (Create, Read, Update, Delete) permettant aux utilisateurs de créer un compte, de se connecter, de poster des livres, les noter, les modifier et les supprimer."
     ],
     "link": "https://github.com/sulirb/mon-vieux-grimoire-p7",
-    "tags": ["Backend", "Express", "MongoDB"]
+    "tags": ["Backend", "Express", "MongoDB", "Openclassrooms"]
   }
 ]
