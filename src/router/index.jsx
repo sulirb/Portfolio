@@ -18,7 +18,7 @@ export function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
@@ -29,8 +29,10 @@ export function App() {
           cssOverride={{
             margin: "auto",
             position: "fixed",
-            top: "43%",
-            left: "47%",
+            top: "50%",
+            left: "50%",
+            width: "0",
+            height: "0",
           }}
           speedMultiplier={2}
           size={100}

@@ -1,14 +1,16 @@
 @import "../global";
 
 .start {
-  position: relative;
-  background-color: $back1-color;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8) url("../../public/images/arriere-plan.webp");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
 
-  &__bg {
-    max-height: 768px;
-    width: 100%;
-    object-fit: cover;
-  }
   &__title {
     position: absolute;
     left: 0;
@@ -46,45 +48,46 @@
 }
 
 @media (max-width: 768px) {
-  .start__title {
-    max-width: 526px;
-    top: 17%;
-    h1 {
-      font-size: 55px;
-    }
-    span {
-      font-size: 20px;
+  .start {
+    height: 90vh;
+
+    .start__title {
+      max-width: 526px;
+
+      h1 {
+        font-size: 55px;
+      }
+      span {
+        font-size: 20px;
+      }
     }
   }
 }
 
 @media (max-width: 600px) {
-  .start__title {
-    max-width: 400px;
-    top: 17%;
-    h1 {
-      font-size: 40px;
+  .start {
+    .start__title {
+      max-width: 400px;
+      h1 {
+        font-size: 40px;
+      }
+      span {
+        font-size: 18px;
+      }
     }
-    span {
-      font-size: 18px;
-    }
-  }
-  .start__bg {
-    height: 500px;
   }
 }
 
 @media (max-width: 435px) {
-  .start__title {
-    max-width: 300px;
-    h1 {
-      font-size: 30px;
+  .start {
+    .start__title {
+      max-width: 300px;
+      h1 {
+        font-size: 30px;
+      }
+      span {
+        font-size: 16px;
+      }
     }
-    span {
-      font-size: 16px;
-    }
-  }
-  .start__bg {
-    height: 400px;
   }
 }
