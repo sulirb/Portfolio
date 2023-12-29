@@ -119,7 +119,7 @@ function Contact() {
                     {...register("subject", {
                       required: {
                         value: true,
-                        message: "Please enter a subject",
+                        message: "Merci d'entrer l'objet de votre e-mail.",
                       },
                       maxLength: {
                         value: 75,
