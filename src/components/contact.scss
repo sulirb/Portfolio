@@ -20,6 +20,59 @@
   &__icon :hover {
     color: rgb(55, 45, 45);
   }
+  &__title {
+    margin: 0 0 5rem;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.contact-title {
+  margin-top: 4.5em;
+  text-align: center;
+}
+
+.contact-form {
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 600px;
+
+  input[type="text"],
+  input[type="email"] {
+    padding-left: 1em;
+    height: 50px;
+    border-radius: 5px;
+  }
+  textarea {
+    height: 200px;
+  }
+
+  &__flex,
+  &__first {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.contact-enterMessage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.confirm-box {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  &__alert {
+    background-color: black;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    border: 1px black solid;
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 428px) {
