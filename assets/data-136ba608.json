@@ -1,5 +1,22 @@
 [
   {
+    "id": "t47arrp2",
+    "title": "Équipement Vélo",
+    "cover": "/portfolio/images/equipement-logo.png",
+    "pictures": [
+      "/portfolio/images/equipement-mobile.png",
+      "/portfolio/images/equipement-article.png",
+      "/portfolio/images/equipement-liste.png"
+    ],
+    "description": [
+      "Création du site web en utilisant en utilisant la MERN stack (MongoDB, Express, React, Node JS)",
+      "Gestion et maintenance du site web.",
+      "Optimisation globale du site web, sur les performances et sur le SEO."
+    ],
+    "link": "https://equipement-velo.fr",
+    "tags": ["MERN", "Full-Stack", "SEO"]
+  },
+  {
     "id": "v47abua2",
     "title": "Météo-Maubeuge",
     "cover": "/portfolio/images/meteo-logo.png",
@@ -15,6 +32,7 @@
     "link": "https://meteo-maubeuge.go.yo.fr",
     "tags": ["HTML", "CSS", "JavaScript", "API"]
   },
+
   {
     "id": "c67ab8a7",
     "title": "Booki",
