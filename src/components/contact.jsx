@@ -170,7 +170,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/sullivan-irbah-270892284/"
             target="_blank"
-            rel="noreferrer"
+            rel="nofollow noreferrer"
             className="cont__icon"
           >
             <Icon icon="mdi:linkedin" />
@@ -178,7 +178,7 @@ function Contact() {
           <a
             href="https://github.com/sulirb"
             target="_blank"
-            rel="noreferrer"
+            rel="nofollow noreferrer"
             className="cont__icon"
           >
             <Icon icon="mdi:github" />
