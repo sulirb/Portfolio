@@ -37,7 +37,7 @@ function Modal({ setIsOpen, title, pictures, description, tags, link }) {
                   <Tag key={index} tag={e} />
                 ))}
               </div>
-              <a href={link}>
+              <a href={link} rel="nofollow">
                 <button>Lien du site</button>
               </a>
             </div>
