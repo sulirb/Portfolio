@@ -183,6 +183,14 @@ function Contact() {
           >
             <Icon icon="mdi:github" />
           </a>
+          <a
+            href="https://suldev.carrd.co"
+            target="_blank"
+            rel="noopener"
+            className="cont__icon"
+          >
+            <Icon icon="simple-icons:carrd" />
+          </a>
         </div>
       </div>
     </footer>
