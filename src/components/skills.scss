@@ -4,13 +4,13 @@
   padding: 6rem 3rem;
   background-color: $back2-color;
   &__title {
-    margin: 0 0 5rem;
     font-size: 50px;
     text-align: center;
     text-transform: uppercase;
   }
   &__flex {
     display: flex;
+    flex-direction: column;
     &-front {
       width: 50%;
       text-align: center;
@@ -54,6 +54,7 @@
   h3 {
     text-transform: uppercase;
     text-align: center;
+    font-size: 30px;
   }
   p {
     text-align: center;

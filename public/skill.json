@@ -12,9 +12,10 @@
       "icon": [
         "https://api.iconify.design/devicon/mongodb-wordmark.svg",
         "https://api.iconify.design/devicon/nodejs.svg",
-        "https://api.iconify.design/devicon/express.svg"
+        "https://api.iconify.design/devicon/express.svg",
+        "https://api.iconify.design/devicon/python.svg"
       ],
-      "title": ["MongoDB", "Nodejs", "Express"]
+      "title": ["MongoDB", "Nodejs", "Express", "Python"]
     },
     "tools": {
       "icon": [
