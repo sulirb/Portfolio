@@ -9,12 +9,12 @@
       "/portfolio/images/equipement-liste.png"
     ],
     "description": [
-      "Création du site web en utilisant en utilisant la MERN stack (MongoDB, Express, React, Node JS)",
+      "Création du site web en utilisant en utilisant la MERN stack (MongoDB, Express, React, Node JS) et Next.js",
       "Gestion et maintenance du site web.",
       "Optimisation globale du site web, sur les performances et sur le SEO."
     ],
     "link": "https://equipement-velo.fr",
-    "tags": ["MERN", "Full-Stack", "SEO"]
+    "tags": ["MERN", "Full-Stack", "SEO", "Next.js"]
   },
   {
     "id": "v47abua2",
@@ -29,7 +29,7 @@
       "Manipulation de l'API Open-Meteo afin d'afficher les données météorologiques en temps réel.",
       "Création d'une experience utilisateur informative et immersive."
     ],
-    "link": "https://meteo-maubeuge.go.yo.fr",
+    "link": "https://meteo-ten-gamma.vercel.app",
     "tags": ["HTML", "CSS", "JavaScript", "API"]
   },
 
