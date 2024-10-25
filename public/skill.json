@@ -13,9 +13,10 @@
         "https://api.iconify.design/devicon/mongodb-wordmark.svg",
         "https://api.iconify.design/devicon/nodejs.svg",
         "https://api.iconify.design/devicon/express.svg",
-        "https://api.iconify.design/devicon/python.svg"
+        "https://api.iconify.design/devicon/python.svg",
+        "https://api.iconify.design/devicon/mysql.svg"
       ],
-      "title": ["MongoDB", "Nodejs", "Express", "Python"]
+      "title": ["MongoDB", "Nodejs", "Express", "Python", "MySQL"]
     },
     "tools": {
       "icon": [
