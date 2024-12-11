@@ -4,9 +4,10 @@
       "icon": [
         "https://api.iconify.design/logos/javascript.svg",
         "https://api.iconify.design/logos/sass.svg",
-        "https://api.iconify.design/logos/react.svg"
+        "https://api.iconify.design/logos/react.svg",
+        "https://api.iconify.design/devicon/nextjs.svg"
       ],
-      "title": ["Javascript", "Sass", "React"]
+      "title": ["Javascript", "Sass", "React", "Next.js"]
     },
     "backend": {
       "icon": [
