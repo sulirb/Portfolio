@@ -7,7 +7,7 @@ function About() {
       <h2 className="apropos__title">A propos de moi</h2>
       <div className="apropos__flex">
         <div className="cadre-photo">
-          <img src="/portfolio/images/profil.png" alt="Photo de profil" />
+          <img src="/images/profil.png" alt="Photo de profil" />
         </div>
         <div className="apropos-texte">
           <p>
