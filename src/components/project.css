@@ -1,0 +1,58 @@
+body,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "Geologica", sans-serif;
+  height: 100%;
+  color: #f2e9dc;
+  background-color: #134d55;
+}
+
+/** {
+  outline: 2px red solid;
+}*/
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 5px;
+  letter-spacing: 3px;
+  background-color: #211f1f;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(55, 45, 45);
+}
+
+.proj {
+  background-color: #134d55;
+  padding: 6rem 3rem 10rem;
+}
+.proj__title {
+  margin: 0 0 5rem;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .proj {
+    padding: 3rem;
+  }
+  .proj__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .proj {
+    padding: 0rem;
+  }
+  .proj__title {
+    margin: 0;
+    padding: 5rem 0;
+  }
+}/*# sourceMappingURL=project.css.map */

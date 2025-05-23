@@ -1,0 +1,64 @@
+body,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "Geologica", sans-serif;
+  height: 100%;
+  color: #f2e9dc;
+  background-color: #134d55;
+}
+
+/** {
+  outline: 2px red solid;
+}*/
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 5px;
+  letter-spacing: 3px;
+  background-color: #211f1f;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(55, 45, 45);
+}
+
+.message {
+  color: white;
+  text-align: center;
+  margin: 15rem 5rem;
+}
+.message__h1 {
+  font-size: 288px;
+  margin: 0;
+  padding: 0;
+}
+.message__oups {
+  font-size: 36px;
+  font-weight: 500;
+}
+.message__ret {
+  font-size: 18px;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .message {
+    margin: 10rem 3rem;
+  }
+  .message__h1 {
+    font-size: 128px;
+  }
+  .message__oups {
+    font-size: 24px;
+    margin: 0 0 6rem;
+  }
+  .message__ret {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=error.css.map */

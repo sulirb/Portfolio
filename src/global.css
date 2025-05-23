@@ -1,0 +1,29 @@
+body,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: "Geologica", sans-serif;
+  height: 100%;
+  color: #f2e9dc;
+  background-color: #134d55;
+}
+
+/** {
+  outline: 2px red solid;
+}*/
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 5px;
+  letter-spacing: 3px;
+  background-color: #211f1f;
+  padding: 0.7em 2em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(55, 45, 45);
+}/*# sourceMappingURL=global.css.map */
