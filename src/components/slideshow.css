@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-around;
 }
-.chevron_left, .chevron_right {
+.chevron_left,
+.chevron_right {
   margin-top: 0.2em;
   cursor: pointer;
   font-size: 75px;
@@ -11,6 +12,7 @@
 }
 .chevron_logo {
   cursor: pointer;
+  width: 300px;
 }
 .chevron_logo-pn {
   width: 100px;
@@ -25,7 +27,8 @@
   }
 }
 @media (max-width: 600px) {
-  .chevron_left, .chevron_right {
+  .chevron_left,
+  .chevron_right {
     font-size: 60px;
   }
   .chevron_logo {
@@ -36,7 +39,8 @@
   .chevron {
     padding: 0 0 8rem;
   }
-  .chevron_left, .chevron_right {
+  .chevron_left,
+  .chevron_right {
     font-size: 50px;
   }
   .chevron_logo {
@@ -48,4 +52,4 @@
   .chevron_logo {
     width: 150px;
   }
-}/*# sourceMappingURL=slideshow.css.map */
+} /*# sourceMappingURL=slideshow.css.map */
